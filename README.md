@@ -19,6 +19,12 @@
   - 事务管理（本地事务、分布式事务）
 - **简历输出** - 生成资深程序员级别的项目描述，包含量化成果
 
+## 安装
+
+```bash
+cd ~/.claude/skills && git clone https://github.com/CloudAscendTeam/project-highlights-skill.git
+```
+
 ## 目录结构
 
 ```
