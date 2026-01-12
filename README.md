@@ -22,23 +22,26 @@
 ## 目录结构
 
 ```
-project-highlights-skill/
-├── SKILL.md                    # 主技能文件（工作流程指南）
-├── README.md                   # 项目说明
-├── references/
-│   ├── tech-highlights.md      # 高频技术亮点识别指南
-│   ├── diagram-templates.md    # Mermaid 图表模板
-│   ├── analysis-patterns.md    # 项目分析模式参考
-│   └── resume-templates.md     # 简历模板参考
-└── scripts/
-    └── analyze_project.py      # 自动化项目分析脚本
+.
+├── .gitignore
+├── README.md
+├── LICENSE
+└── project-highlights-skill/           # 技能主目录
+    ├── SKILL.md                        # 主技能文件（工作流程指南）
+    ├── references/
+    │   ├── tech-highlights.md          # 高频技术亮点识别指南
+    │   ├── diagram-templates.md        # Mermaid 图表模板
+    │   ├── analysis-patterns.md        # 项目分析模式参考
+    │   └── resume-templates.md         # 简历模板参考
+    └── scripts/
+        └── analyze_project.py          # 自动化项目分析脚本
 ```
 
 ## 使用方法
 
 ### 1. 作为 Claude Code Skill 使用
 
-将此项目作为 Claude Code 的技能引入后，可以通过以下方式触发：
+将 `project-highlights-skill/` 目录作为 Claude Code 的技能引入后，可以通过以下方式触发：
 
 - 请求"分析项目亮点"
 - 请求"总结项目经验"
@@ -49,10 +52,10 @@ project-highlights-skill/
 
 ```bash
 # 分析当前目录的项目
-python scripts/analyze_project.py --path .
+python project-highlights-skill/scripts/analyze_project.py --path .
 
 # 分析指定项目并输出到文件
-python scripts/analyze_project.py --path /path/to/project --output report.json --pretty
+python project-highlights-skill/scripts/analyze_project.py --path /path/to/project --output report.json --pretty
 ```
 
 ## 工作流程
@@ -126,10 +129,10 @@ graph TB
 
 ## 参考文档
 
-- `references/tech-highlights.md` - 详细的技术亮点识别方法和面试话术
-- `references/diagram-templates.md` - 各类 Mermaid 图表模板
-- `references/analysis-patterns.md` - 项目分析策略和复杂度评估
-- `references/resume-templates.md` - 简历 STAR 表达法和量化指南
+- `project-highlights-skill/references/tech-highlights.md` - 详细的技术亮点识别方法和面试话术
+- `project-highlights-skill/references/diagram-templates.md` - 各类 Mermaid 图表模板
+- `project-highlights-skill/references/analysis-patterns.md` - 项目分析策略和复杂度评估
+- `project-highlights-skill/references/resume-templates.md` - 简历 STAR 表达法和量化指南
 
 ## License
 
