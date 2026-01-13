@@ -2,6 +2,13 @@
 
 一个用于 Claude Code 的技能插件，能够深度分析项目代码库，识别技术亮点和难点，生成架构图和流程图，并输出资深程序员级别的简历项目描述。
 
+<p align="left">
+  <a href="./LICENSE"><img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg"></a>
+  <a href="https://code.claude.com/docs/en/plugins"><img alt="Claude Code Plugin" src="https://img.shields.io/badge/Claude%20Code-Plugin-blue"></a>
+  <a href="https://github.com/CloudAscendTeam/project-highlights-skill"><img alt="Claude Code Skill" src="https://img.shields.io/badge/Claude%20Code-Skill-blueviolet"></a>
+  <a href="https://github.com/CloudAscendTeam/project-highlights-skill/releases"><img alt="Version" src="https://img.shields.io/github/v/release/CloudAscendTeam/project-highlights-skill?display_name=tag"></a>
+</p>
+
 ## 功能特性
 
 - **大型项目分析** - 支持复杂项目结构的深度分析（微服务、Mono-repo等）
