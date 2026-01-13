@@ -6,7 +6,6 @@
   <a href="./LICENSE"><img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg"></a>
   <a href="https://code.claude.com/docs/en/plugins"><img alt="Claude Code Plugin" src="https://img.shields.io/badge/Claude%20Code-Plugin-blue"></a>
   <a href="https://github.com/CloudAscendTeam/project-highlights-skill"><img alt="Claude Code Skill" src="https://img.shields.io/badge/Claude%20Code-Skill-blueviolet"></a>
-  <a href="https://github.com/CloudAscendTeam/project-highlights-skill/releases"><img alt="Version" src="https://img.shields.io/github/v/release/CloudAscendTeam/project-highlights-skill?display_name=tag"></a>
 </p>
 
 ## 功能特性
@@ -27,29 +26,6 @@
 - **简历输出** - 生成资深程序员级别的项目描述，包含量化成果
 - **自动保存报告** - 分析完成后自动将报告保存到项目根目录的 `project-highlights.md` 文件
 
-## 安装
-
-```bash
-cd ~/.claude/skills && git clone https://github.com/CloudAscendTeam/project-highlights-skill.git
-```
-
-## 目录结构
-
-```
-.
-├── .gitignore
-├── README.md
-├── LICENSE
-└── project-highlights-skill/           # 技能主目录
-    ├── SKILL.md                        # 主技能文件（工作流程指南）
-    ├── references/
-    │   ├── tech-highlights.md          # 高频技术亮点识别指南
-    │   ├── diagram-templates.md        # Mermaid 图表模板
-    │   ├── analysis-patterns.md        # 项目分析模式参考
-    │   └── resume-templates.md         # 简历模板参考
-    └── scripts/
-        └── analyze_project.py          # 自动化项目分析脚本
-```
 
 ## 使用方法
 
@@ -148,7 +124,3 @@ graph TB
 - `project-highlights-skill/references/diagram-templates.md` - 各类 Mermaid 图表模板
 - `project-highlights-skill/references/analysis-patterns.md` - 项目分析策略和复杂度评估
 - `project-highlights-skill/references/resume-templates.md` - 简历 STAR 表达法和量化指南
-
-## License
-
-MIT License
