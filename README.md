@@ -37,7 +37,7 @@ git clone https://github.com/CloudAscend/skills.git ~/.claude/skills/cloudascend
 
 ```
 .
-├── README.md           # 本文件
+├── README.md           # 仓库介绍
 ├── LICENSE             # MIT 许可证
 └── skills/
     └── project-highlights/    # 项目亮点分析技能
